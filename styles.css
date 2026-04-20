@@ -1,0 +1,104 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Full screen */
+body, html {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+    height: 10vh;
+    background: #fff;
+}
+
+/* Logo image */
+.logo img {
+    height: 40px;
+}
+
+/* Nav links */
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 1.5vw;
+    font-weight: 500;
+}
+
+/* Username pill */
+.user-name {
+    background: #e6f0ff;
+    color: #007bff;
+    padding: 8px 16px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+/* Hero layout */
+.hero {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+/* Left section */
+.hero-left {
+    flex: 1;
+}
+
+.hero-left h1 {
+    font-size: 3.5rem;
+    color: #2c2c2c;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+/* Blue highlight */
+.hero-left h1 span {
+    color: #007bff;
+}
+
+.hero-left p {
+    font-size: 1.1rem;
+    color: #777;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+/* Button */
+.btn-book {
+    padding: 14px 30px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-book:hover {
+    background: #0056b3;
+}
+
+/* Right image */
+.hero-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-right img {
+    max-width: 80%;
+}
